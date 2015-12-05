@@ -8,6 +8,5 @@ Poseidon's design philosophy is rooted on efficiently harnessing multiple, distr
 
 Poseindon inherits many functionalities and benefits of Petuum, including the stale synchronous parallel consistency model, managed communication, bandwidth management, sufficent factor boardcasting, fault tolerance etc. Moreoever, most of the Caffe interfaces are kept unchanged.
 
-Please consult the [wiki page](https://github.com/petuum/bosen/wiki/CNN:-Caffe-on-Petuum) for more
-details on how to setup Poseidon on your clusters and start training your model.
+Please consult the [wiki page](https://github.com/petuum/bosen/wiki/Poseidon%3A-Distributed-Deep-Learning-Framework-on-Petuum) for more details on how to setup Poseidon on your clusters and start training your model.
 
