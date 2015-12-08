@@ -6,7 +6,7 @@ Poseidon builds upon the Caffe (http://caffe.berkeleyvision.org/) CNN libraries 
 
 Poseidon's design philosophy is rooted on efficiently harnessing multiple, distributed GPUs on commodity hardware and Ethernet, in order to maximize the speedup with a fully data parallel scheme for distributed deep learning. We empirically evaluate Poseidon regarding of throughput, convergence and accuracy on the image classification tasks with multiple standard datasets, and show that Poseidon is able to achieve state-of-the-art speedups in accelerating the training of modern CNN structures, at the same time guarantee the correct convergence. 
 
-Poseindon inherits many functionalities and benefits of Petuum, including the stale synchronous parallel consistency model, managed communication, bandwidth management, sufficent factor boardcasting, fault tolerance etc. Moreoever, most of the Caffe interfaces are kept unchanged.
+Poseidon inherits many functionalities and benefits of Petuum, including the stale synchronous parallel consistency model, managed communication, bandwidth management, sufficent factor boardcasting, fault tolerance etc. Moreoever, most of the Caffe interfaces are kept unchanged.
 
 Please consult the [wiki page](https://github.com/petuum/poseidon/wiki) for more details on how to setup Poseidon on your clusters and start training your model.
 
