@@ -5,14 +5,14 @@ layers {
   top: "data"
   top: "label"
   data_param {
-    source: "CAFFE_ROOT/example/imagenet/ilsvrc12_train_lmdb"
+    source: "POSEIDON_ROOT/example/imagenet/ilsvrc12_train_lmdb"
     backend: LMDB
     batch_size: 256
     shared_file_system: true
   }
   transform_param {
     crop_size: 227
-    mean_file: "CAFFE_ROOT/data/ilsvrc12/imagenet_mean.binaryproto"
+    mean_file: "POSEIDON_ROOT/data/ilsvrc12/imagenet_mean.binaryproto"
     mirror: true
   }
   include: { phase: TRAIN }

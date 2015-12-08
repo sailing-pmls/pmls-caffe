@@ -1,4 +1,4 @@
-net: "CAFFE_ROOT/models/bvlc_googlenet/train_test.prototxt"
+net: "POSEIDON_ROOT/models/bvlc_googlenet/train_test.prototxt"
 test_iter: 1000
 test_interval: 4000
 test_initialization: true
@@ -11,5 +11,5 @@ max_iter: 2400000
 momentum: 0.9
 weight_decay: 0.0002
 snapshot: 40000
-snapshot_prefix: "CAFFE_ROOT/models/bvlc_googlenet/bvlc_googlenet_quick"
+snapshot_prefix: "POSEIDON_ROOT/models/bvlc_googlenet/bvlc_googlenet_quick"
 solver_mode: GPU

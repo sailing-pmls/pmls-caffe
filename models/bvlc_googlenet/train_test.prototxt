@@ -5,7 +5,7 @@ layers {
   name: "data"
   type: DATA
   data_param {
-    source: "CAFFE_ROOT/example/imagenet/ilsvrc12_train_lmdb"
+    source: "POSEIDON_ROOT/example/imagenet/ilsvrc12_train_lmdb"
     batch_size: 32
     backend: LMDB
     shared_file_system: true
@@ -27,7 +27,7 @@ layers {
   name: "data"
   type: DATA
   data_param {
-    source: "CAFFE_ROOT/example/imagenet/ilsvrc12_val_lmdb"
+    source: "POSEIDON_ROOT/example/imagenet/ilsvrc12_val_lmdb"
     batch_size: 50
     backend: LMDB
     shared_file_system: true
