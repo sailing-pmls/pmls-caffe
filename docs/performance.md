@@ -53,6 +53,50 @@ When training GoogLeNet with 8 nodes, Poseidon takes less than 48 hours to achie
 
 The following table compares our result to those of previous work on ImageNet 22K, in terms of experimental settings, machine resources, training time used, and train/test accuracy. It's worth mentioning that the prediction performance primarily depends on what kind of CNN structure you choose, thus could be substantially improved if choosing a different or improved model. 
  
+<table><thead>
+<tr>
+<th align="center">Framework</th>
+<th align="center">Data (train/test)</th>
+<th align="center"># machines/cores</th>
+<th align="center">Time</th>
+<th align="center">Train accuracy</th>
+<th align="center">Test accuracy</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="center"><em>Poseidon</em></td>
+<td align="center">7.1M / 7.1M</td>
+<td align="center">8 / 8 GPUs</td>
+<td align="center">3 days</td>
+<td align="center">41%</td>
+<td align="center">23.7%</td>
+</tr>
+<tr>
+<td align="center"><em>Adam</em></td>
+<td align="center">7.1M / 7.1M</td>
+<td align="center">62 machines / ?</td>
+<td align="center">10 days</td>
+<td align="center">N/A</td>
+<td align="center">29.8%</td>
+</tr>
+<tr>
+<td align="center"><em>Le et al., w/ pretrain</em></td>
+<td align="center">7.1M+10M unlabeled images / 7.1M</td>
+<td align="center">1000 / 16000 cores</td>
+<td align="center">3 days</td>
+<td align="center">N/A</td>
+<td align="center">15.8%</td>
+</tr>
+<tr>
+<td align="center"><em>MxNet</em></td>
+<td align="center">14.2M / No test</td>
+<td align="center">1 / 4 GPUs</td>
+<td align="center">8.5 days</td>
+<td align="center">37.19%</td>
+<td align="center">N/A</td>
+</tr>
+</tbody></table>
+ 
 | Framework | Data (train/test) | # machines/cores | Time | Train accuracy | Test accuracy |
 | :---:|:---:| :---:|:---:|:---:| :---:|
 | _Poseidon_ | 7.1M / 7.1M | 8 / 8 GPUs | 3 days  | 41% | 23.7% |
