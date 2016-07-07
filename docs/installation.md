@@ -29,7 +29,7 @@ Next, compile the Bösen key-value store, which enables distributed multi-machin
     make
     cd ..
 
-Now, we are ready to compile Caffe. Install the [[Caffe prerequisites|http://caffe.berkeleyvision.org/installation.html]]. If you are using Ubuntu 14.04, we have provided a script to do so:
+Now, we are ready to compile Caffe. Install the [Caffe prerequisites](http://caffe.berkeleyvision.org/installation.html). If you are using Ubuntu 14.04, we have provided a script to do so:
     
     sh scripts/setup_third_party.sh
 
@@ -63,4 +63,4 @@ If the machines do not have a shared filesystem, you need to upload your public 
 
 **Note:** Password-less authentication can fail if `~/.ssh/authorized_keys` does not have the correct permissions. To fix this, run `chmod 600 ~/.ssh/authorized_keys`.
 
-Now you are ready, you may refer to the [setup guide](https://github.com/petuum/poseidon/wiki/Setup-Guide:-Distributed-Learning-of-Neural-Networks) or the [performance report](https://github.com/petuum/poseidon/wiki/performance_report) for the next step. 
+Now you are ready, you may refer to the [setup guide](distributed-guide.md) or the [performance report](performance.md) for the next step. 
