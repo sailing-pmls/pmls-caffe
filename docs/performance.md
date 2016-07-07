@@ -53,7 +53,7 @@ When training GoogLeNet with 8 nodes, Poseidon takes less than 48 hours to achie
 
 The following table compares our result to those of previous work on ImageNet 22K, in terms of experimental settings, machine resources, training time used, and train/test accuracy. It's worth mentioning that the prediction performance primarily depends on what kind of CNN structure you choose, thus could be substantially improved if choosing a different or improved model. 
  
-<table><thead>
+<table border="1"><thead>
 <tr>
 <th align="center">Framework</th>
 <th align="center">Data (train/test)</th>
@@ -97,12 +97,12 @@ The following table compares our result to those of previous work on ImageNet 22
 </tr>
 </tbody></table>
  
-| Framework | Data (train/test) | # machines/cores | Time | Train accuracy | Test accuracy |
+<!--| Framework | Data (train/test) | # machines/cores | Time | Train accuracy | Test accuracy |
 | :---:|:---:| :---:|:---:|:---:| :---:|
 | _Poseidon_ | 7.1M / 7.1M | 8 / 8 GPUs | 3 days  | 41% | 23.7% |
 | _Adam_ | 7.1M / 7.1M | 62 machines / ? | 10 days | N/A | 29.8% |
 | _Le et al., w/ pretrain_ | 7.1M+10M unlabeled images / 7.1M | 1000 / 16000 cores | 3 days | N/A | 15.8% |
-| _MxNet_ | 14.2M / No test | 1 / 4 GPUs | 8.5 days | 37.19% | N/A |
+| _MxNet_ | 14.2M / No test | 1 / 4 GPUs | 8.5 days | 37.19% | N/A |-->
 
 <!---
 Note that at this point complete fair comparison between different framework is not possible because the experiment protocol of ImageNet 22K is not standardized, all the source codes are not fully available yet, and large variations exist in system configurations, models, and implementation details.
