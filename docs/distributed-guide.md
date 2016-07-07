@@ -24,8 +24,8 @@ After that there should be NUM_PARTITIONS partitioned datasets, `cifar10_leveldb
 
 **Repeat this process for the test data `examples/cifar10/cifar10_test_leveldb`.**
 
-# Running the Caffe Application
-## Model Training
+## Running the Caffe Application
+### Model Training
 Training a Neural Network involves several configuration files. Some examples have been provided in `./examples/`, **but you will need to configure them for your environment**. We shall explain how to do so, using the CIFAR-10 image classification task as a running example:
 
 * Network definition file: `./examples/cifar10/cifar10_quick_train_test.prototxt`
