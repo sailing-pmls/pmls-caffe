@@ -29,14 +29,14 @@ Poseidon builds upon the [Caffe framework](http://caffe.berkeleyvision.org/), an
 ## Quick Start
 
 We provide a [quick start script](https://github.com/petuum/poseidon/blob/master/install.sh) to help you try Poseidon! This script will automatically clone the Poseidon project from Github and install it on your machine.
-After installation, follow the [setup guide](https://github.com/petuum/poseidon/wiki/Setup-Guide:-Distributed-Learning-of-Neural-Networks) to setup your model and training!
+After installation, follow the [setup guide](distributed-guide.md) to setup your model and training!
 
-If you have trouble using the quick start script, check our detailed [installation guide](https://github.com/petuum/poseidon/wiki/Installation-Guide).
-After installation, please check the [setup guide](https://github.com/petuum/poseidon/wiki/Setup-Guide:-Distributed-Learning-of-Neural-Networks) for you to setup your neural network models and start your training on clusters or on multiple GPUs.
+If you have trouble using the quick start script, check our detailed [installation guide](installation.md).
+After installation, please check the [setup guide](distributed-guide.m) for you to setup your neural network models and start your training on clusters or on multiple GPUs.
 
 ## Docker 
 
-If you are a Docker user, we also have a [Poseidon image](https://hub.docker.com/r/zhisbug/poseidon/) on the Docker Hub. Check our instructions on [how to run Poseidon inside Docker](https://github.com/petuum/poseidon/wiki/Running-Poseidon-in-Docker).
+If you are a Docker user, we also have a [Poseidon image](https://hub.docker.com/r/zhisbug/poseidon/) on the Docker Hub. Check our instructions on [how to run Poseidon inside Docker](docker.md).
 
 ## Overview
 Poseidon is a scalable system architecture as a general purpose solution for any single-machine DL framework to be efficiently distributed on GPU clusters with commodity Ethernet, by leveraging the Petuum
