@@ -1,3 +1,11 @@
+```eval_rst
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+   
+   self
+```
+
 # Home
 
 Poseidon is a scalable open-source framework for large-scale distributed deep learning on CPU/GPU clusters. 
@@ -5,7 +13,7 @@ Initially released on January 2015 along with Petuum v1.0 as an application unde
 
 **If you are coming from the main Petuum wiki, please note that Poseidon is installed separately from the other Petuum applications. Do continue to follow this wiki for instructions.**
 
-Poseidon builds upon the Caffe framework (http://caffe.berkeleyvision.org/), and extends it with distributed, multi-machine capability. If you have a cluster with multiple GPU-equipped machines, you can now take advantage of all of them while still enjoying the familiar interface of Caffe!
+Poseidon builds upon the [Caffe framework](http://caffe.berkeleyvision.org/), and extends it with distributed, multi-machine capability. If you have a cluster with multiple GPU-equipped machines, you can now take advantage of all of them while still enjoying the familiar interface of Caffe!
 
 ## News
 (New) CUDA 7.5 and cudnn R3 are supported!
@@ -42,4 +50,4 @@ Hao Zhang, Zhiting Hu, Jinliang Wei, Pengtao Xie, Gunhee Kim, Qirong Ho, Eric Xi
 
 * Poseidon achieves competitive results on the largest image classification dataset: ImageNet 22K, which includes 14,197,087 labeled images (near 3TB) from 21,841 categories. Compared to previous state-of-the-art results, we achieve a top-1 training accuracy 41% and test accuracy 23.7%, but use only 13% training workers and  30% training time.
 
-For more detailed performance report, please refer to the [performance](https://github.com/petuum/poseidon/wiki/Performance-Report) page.
+For more detailed performance report, please refer to the [performance](performance.md) page.
