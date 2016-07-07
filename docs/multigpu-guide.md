@@ -1,6 +1,6 @@
 # Setup Guide: Multi GPU Training of Neural Networks
 
-Poseidon also supports multi-GPU training of neural networks on one machine. If you want to use this feature, make sure you have successfully installed Poseidon by following our [installation guide](https://github.com/petuum/poseidon/wiki/Installation-Guide) and you also have prior knowledge about how to start a training instance under Poseidon by reading our [setup guide](https://github.com/petuum/poseidon/wiki/Setup-Guide:-Distributed-Learning-of-Neural-Networks) for distributed training. 
+Poseidon also supports multi-GPU training of neural networks on one machine. If you want to use this feature, make sure you have successfully installed Poseidon by following our [installation guide](installation.md) and you also have prior knowledge about how to start a training instance under Poseidon by reading our [setup guide](distributed-guide.md) for distributed training. 
 
 ## Multi-GPU Training
 
