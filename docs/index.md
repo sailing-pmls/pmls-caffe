@@ -4,6 +4,12 @@
    :maxdepth: 2
    
    self
+   history
+   installation
+   performance
+   docker
+   distributed-guide
+   multigpu-guide
 ```
 
 # Home
