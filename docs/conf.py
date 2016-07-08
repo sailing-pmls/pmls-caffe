@@ -339,7 +339,7 @@ texinfo_documents = [
 # texinfo_no_detailmenu = False
 
 # Set up recommonmark
-docs_root = 'http://docs.petuum.com/projects/poseidon/en/latest/'
+docs_root = 'http://docs.petuum.com/projects/petuum-poseidon/en/latest/'
 def setup(app):
   app.add_config_value('recommonmark_config', {
     'url_resolver': lambda url: docs_root + url,
