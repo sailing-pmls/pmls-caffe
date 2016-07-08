@@ -1,3 +1,17 @@
+```eval_rst
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+   
+   self
+   history
+   installation
+   performance
+   docker
+   distributed-guide
+   multigpu-guide
+```
+
 # Home
 
 Poseidon is a scalable open-source framework for large-scale distributed deep learning on CPU/GPU clusters. 
@@ -5,7 +19,7 @@ Initially released on January 2015 along with Petuum v1.0 as an application unde
 
 **If you are coming from the main Petuum wiki, please note that Poseidon is installed separately from the other Petuum applications. Do continue to follow this wiki for instructions.**
 
-Poseidon builds upon the Caffe framework (http://caffe.berkeleyvision.org/), and extends it with distributed, multi-machine capability. If you have a cluster with multiple GPU-equipped machines, you can now take advantage of all of them while still enjoying the familiar interface of Caffe!
+Poseidon builds upon the [Caffe framework](http://caffe.berkeleyvision.org/), and extends it with distributed, multi-machine capability. If you have a cluster with multiple GPU-equipped machines, you can now take advantage of all of them while still enjoying the familiar interface of Caffe!
 
 ## News
 (New) CUDA 7.5 and cudnn R3 are supported!
@@ -15,14 +29,14 @@ Poseidon builds upon the Caffe framework (http://caffe.berkeleyvision.org/), and
 ## Quick Start
 
 We provide a [quick start script](https://github.com/petuum/poseidon/blob/master/install.sh) to help you try Poseidon! This script will automatically clone the Poseidon project from Github and install it on your machine.
-After installation, follow the [setup guide](https://github.com/petuum/poseidon/wiki/Setup-Guide:-Distributed-Learning-of-Neural-Networks) to setup your model and training!
+After installation, follow the [setup guide](distributed-guide.md) to setup your model and training!
 
-If you have trouble using the quick start script, check our detailed [installation guide](https://github.com/petuum/poseidon/wiki/Installation-Guide).
-After installation, please check the [setup guide](https://github.com/petuum/poseidon/wiki/Setup-Guide:-Distributed-Learning-of-Neural-Networks) for you to setup your neural network models and start your training on clusters or on multiple GPUs.
+If you have trouble using the quick start script, check our detailed [installation guide](installation.md).
+After installation, please check the [setup guide](distributed-guide.m) for you to setup your neural network models and start your training on clusters or on multiple GPUs.
 
 ## Docker 
 
-If you are a Docker user, we also have a [Poseidon image](https://hub.docker.com/r/zhisbug/poseidon/) on the Docker Hub. Check our instructions on [how to run Poseidon inside Docker](https://github.com/petuum/poseidon/wiki/Running-Poseidon-in-Docker).
+If you are a Docker user, we also have a [Poseidon image](https://hub.docker.com/r/zhisbug/poseidon/) on the Docker Hub. Check our instructions on [how to run Poseidon inside Docker](docker.md).
 
 ## Overview
 Poseidon is a scalable system architecture as a general purpose solution for any single-machine DL framework to be efficiently distributed on GPU clusters with commodity Ethernet, by leveraging the Petuum
@@ -42,4 +56,4 @@ Hao Zhang, Zhiting Hu, Jinliang Wei, Pengtao Xie, Gunhee Kim, Qirong Ho, Eric Xi
 
 * Poseidon achieves competitive results on the largest image classification dataset: ImageNet 22K, which includes 14,197,087 labeled images (near 3TB) from 21,841 categories. Compared to previous state-of-the-art results, we achieve a top-1 training accuracy 41% and test accuracy 23.7%, but use only 13% training workers and  30% training time.
 
-For more detailed performance report, please refer to the [performance](https://github.com/petuum/poseidon/wiki/Performance-Report) page.
+For more detailed performance report, please refer to the [performance](performance.md) page.

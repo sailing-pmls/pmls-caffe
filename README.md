@@ -8,7 +8,7 @@ Poseidon's design philosophy is rooted on efficiently harnessing multiple, distr
 
 Poseidon inherits many functionalities and benefits of Petuum, including the Sufficient Factor Broadcasting (SFB) [1], managed communication and bandwidth management in the [Bösen parameter server](https://github.com/petuum/bosen) [2], etc. Moreover, most of the Caffe interfaces are kept unchanged.
 
-Please consult the [wiki page](https://github.com/petuum/poseidon/wiki) for more details on how to setup Poseidon on your clusters and start training your model. We also disclose the system architecture of Poseidon and several distributing strategies for fast parallelization of deep learning in the following arXiv paper: 
+Please consult the [documentation page](http://docs.petuum.com/projects/petuum-poseidon) for more details on how to setup Poseidon on your clusters and start training your model. We also disclose the system architecture of Poseidon and several distributing strategies for fast parallelization of deep learning in the following arXiv paper: 
 
 Hao Zhang, Zhiting Hu, Jinliang Wei, Pengtao Xie, Gunhee Kim, Qirong Ho, Eric Xing. [Poseidon: A System Architecture for Efficient GPU-based Deep Learning on Multiple Machines](http://arxiv.org/abs/1512.06216). In arXiv, 2015. 
 
